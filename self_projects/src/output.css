@@ -604,6 +604,10 @@ video {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -638,6 +642,16 @@ video {
 
 .min-h-14 {
   min-height: 3.5rem;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.border-spacing-14 {
+  --tw-border-spacing-x: 3.5rem;
+  --tw-border-spacing-y: 3.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
 }
 
 .items-center {
